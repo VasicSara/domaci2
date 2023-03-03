@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          box-sizing: border-box;  
+        }
+        body {
+            background-color: rgb(28, 28, 61);
+        }
+        .wrapper{
+            padding: 24px;
+        }
+        h1, body, html {
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            font-weight: 700; 
+            font-size: 24px; 
+            color: #FFFFFF;}
+        .info {
+            color: #D3924A;
+            font-weight: 400;
+            font-size: 16px;
+            
+        }
+        .name {
+            color: #D3924A;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .apply {
+            background-color: #D3924A;
+            color: #FFFFFF;
+
+        }
+
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+     <h1 class="title">Apply for the position</h1>
+     <h2 class="info">Fill the form below with your information.</h2>
+     <form action="/">
+     <label class="name" for="name">Name</label>
+     <br>
+     <input type="text" placeholder="Enter your name" id="name">
+     <br>
+     <br>
+     <label class="name" for="lastname">Lastname</label>
+     <br>
+     <input type="text" placeholder="Enter your lastname" id="lastname">
+     <br>
+     <br>
+     <label class="name" for="phone">Phone</label>
+     <br>
+     <input type="text" placeholder="Enter your phone" id="phone">
+     <br>
+     <br>
+     <label class="name" for="email" > Email</label>
+     <br>
+     <input type="text" placeholder="Enter your email" id="email"> 
+     <br>
+     <br>
+     <label class="name" for="cv">Upload your CV</label>
+     <br>
+     <input type="file" id="cv">
+     <br>
+     <br>
+     <label class="name" for="subject">Subject </label>
+     <br>
+     <input type="text" placeholder="Enter your subject" id="subject">
+     <br>
+     <br>
+     <label class="name"> Add message </label>
+     <br>
+     <textarea placeholder="Enter yout message" ></textarea>   
+     <br>
+     <br>
+     <input type="checkbox" id="checkbox"> <label class="name" for="checkbox">Notify me by email</label>
+     <br>
+     <br>
+     <button class="apply" type="submit" >Apply</button>
+    </form>
+    </main>
+
+
+
+</body>
+</html>
